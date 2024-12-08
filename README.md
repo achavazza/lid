@@ -1,10 +1,7 @@
 # LiD
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Leben in Deutchland random quiz generator
+all questions are from [BAMF](https://oet.bamf.de/ords/oetut/f?p=514:30)
 
 ## Customize configuration
 
