@@ -255,15 +255,185 @@
             "correct": 4
         }
     ],
+    "Baden-Wüttenberg": [
+        {
+            "id": 301,
+            "question": "Welches Wappen gehört zum Bundesland Baden-Wüttenberg?",
+            "image": "/src/assets/img/l.png",
+            "choices": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 302,
+            "question": "Welches ist ein Landkreis in Baden-Wüttenberg?",
+            "choices": [
+                "Mecklenburgische Seenplatte",
+                "Neckar-Odenwald-Kreis",
+                "Nordfriesland",
+                "Altötting"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 303,
+            "question": "Für wie viele Jahre wird der Landtag in Baden-Wüttenberg gewählt?",
+            "choices": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 304,
+            "question": "Ab welchem Alter darf man in Baden-Wüttenberg bei Kommunalwahlen wählen?",
+            "choices": [
+                "14",
+                "16",
+                "18",
+                "20"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 305,
+            "question": "Welche Farben hat die Landesflagge von Baden-Wüttenberg?",
+            "choices": [
+                "blau-weiß-rot",
+                "schwarz-gold",
+                "weiß-blau",
+                "grün-weiß-rot"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 306,
+            "question": "Wo können Sie sich jn Baden-Wüttenberg über politische Themen informieren?",
+            "choices": [
+                "beim Ordnungsamt der Gemeinde",
+                "bei der Verbraucherzentrale",
+                "bei der Landeszentrale für politische Bildung",
+                "bei den Kirchen"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 307,
+            "question": "Die Landeshaupstadt von Baden-Wüttenberg heißt ...",
+            "choices": [
+                "Heidelberg.",
+                "Stuttgart.",
+                "Karlsruhe.",
+                "Mannheim."
+            ],
+            "correct": 2
+        },
+        {
+            "id": 308,
+            "question": "Welches Bundesland ist Baden-Wüttenberg?",
+            "image": "/src/assets/img/f.png",
+            "choices": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 309,
+            "question": "Wie nennt man den Regierungschef / die Regierungschefin in Baden-Wüttenberg?",
+            "choices": [
+                "Erster Minister/ Erste Ministerin",
+                "Premierminister/ Premierministerin",
+                "Bürgermeister/ Bürgermeisterin",
+                "Ministerpräsident/ Ministerpräsidentin"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 310,
+            "question": "Welches Minister / welche Ministerinen hat Baden-Wüttenberg nicht?",
+            "choices": [
+                "Finanzminister/Finanzministerin",
+                "Justizminister/Justizministerin",
+                "Innenminister/Innenministerin",
+                "Außenminister/Außenministerin"
+            ],
+            "correct": 4
+        }
+    ],
     "Bavaria": [
         {
             "id": 301,
-            "question": "What is the state capital of Bavaria?",
+            "question": "Welches Wappen gehört zum Freistaat Bayern?",
+            "image": "/src/assets/img/k.png",
             "choices": [
-                "Berlin",
-                "Munich",
-                "Hamburg",
-                "Frankfurt"
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 302,
+            "question": "Welches ist ein Landkreis in Bayern?",
+            "choices": [
+                "Prignitz",
+                "Rhein-Sieg-Kreis",
+                "Nordfriesland",
+                "Altötting"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 303,
+            "question": "Für wie viele Jahre wird der Landtag in Bayern gewählt?",
+            "choices": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 304,
+            "question": "Ab welchem Alter darf man in Bayern bei Kommunalwahlen wählen?",
+            "choices": [
+                "14",
+                "16",
+                "18",
+                "20"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 305,
+            "question": "Welche Farben hat die Landesflagge von Bayern?",
+            "choices": [
+                "blau-weiß-rot",
+                "weiß-blau",
+                "grün-weiß-rot",
+                "schwarz-gelb"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 306,
+            "question": "Wo können Sie sich jn Bayern über politische Themen informieren?",
+            "choices": [
+                "beim Ordnungsamt der Gemeinde",
+                "bei der Landeszentrale für politische Bildung",
+                "bei der Verbraucherzentrale",
+                "bei den Kirchen"
             ],
             "correct": 2
         },
@@ -315,15 +485,116 @@
     ],
     "Berlin": [
         {
-            "id": 302,
-            "question": "Which famous gate is located in Berlin?",
+            "id": 301,
+            "question": "Welches Wappen gehört zum Bundesland Berlin?",
+            "image": "/src/assets/img/m.png",
             "choices": [
-                "Brandenburg Gate",
-                "Arc de Triomphe",
-                "Golden Gate",
-                "Iron Gate"
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 302,
+            "question": "Welches ist ein Bezirk von Berlin?",
+            "choices": [
+                "Altona",
+                "Prignitz",
+                "Pankow",
+                "Mecklenburgische Seenplatte"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 303,
+            "question": "Für wie viele Jahre wird das Landesparlament in Berlin gewählt?",
+            "choices": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 304,
+            "question": "Ab welchem Alter darf man in Berlin bei Kommunalwahlen (Wahl der Bezirksverordnetenversammlung) wählen ?",
+            "choices": [
+                "14",
+                "16",
+                "18",
+                "20"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 305,
+            "question": "Welche Farben hat die Landesflagge von Berlin?",
+            "choices": [
+                "blau-weiß-rot",
+                "weiß-rot",
+                "grün-weiß-rot",
+                "schwarz-gold"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 306,
+            "question": "Wo können Sie sich in Berlin über politische Themen informieren?",
+            "choices": [
+                "beim Ordnungsamt der Gemeinde",
+                "bei den Kirchen",
+                "bei der Verbraucherzentrale",
+                "bei der Landeszentrale für politische Bildung"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 307,
+            "question": "Welches Bundesland ist ein Stadtstaat?",
+            "choices": [
+                "Berlin",
+                "Saarland",
+                "Brandenburg",
+                "Hessen"
             ],
             "correct": 1
+        },
+        {
+            "id": 308,
+            "question": "Welches Bundesland ist Berlin?",
+            "image": "/src/assets/img/n.png",
+            "choices": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 309,
+            "question": "Wie nennt man den Regierungschef / die Regierungschefjn des Stadtstaates Berlin?",
+            "choices": [
+                "Ministerpräsident/ Ministerpräsidentin",
+                "Oberbürgermeister/ Oberbürgermeisterin",
+                "Präsident/ Präsidentin des Senats",
+                "Regierender Bürgermeister/ Regierende Bürgermeisterin"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 310,
+            "question": "Welches Minister / welche Ministerinen hat Berlin nicht?",
+            "choices": [
+                "Finanzminister/Finanzministerin",
+                "Innenminister/Innenministerin",
+                "Senator / Senatorin für Außenbeziehungen",
+                "Justizminister/Justizministerin"
+            ],
+            "correct": 3
         }
     ]
 }
