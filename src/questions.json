@@ -259,7 +259,7 @@
         {
             "id": 301,
             "question": "Welches Wappen gehört zum Bundesland Baden-Wüttenberg?",
-            "image": "/src/assets/img/l.png",
+            "image": "/src/assets/img/bw-wappen.png",
             "choices": [
                 "1",
                 "2",
@@ -314,7 +314,7 @@
         },
         {
             "id": 306,
-            "question": "Wo können Sie sich jn Baden-Wüttenberg über politische Themen informieren?",
+            "question": "Wo können Sie sich in Baden-Wüttenberg über politische Themen informieren?",
             "choices": [
                 "beim Ordnungsamt der Gemeinde",
                 "bei der Verbraucherzentrale",
@@ -373,7 +373,7 @@
         {
             "id": 301,
             "question": "Welches Wappen gehört zum Freistaat Bayern?",
-            "image": "/src/assets/img/k.png",
+            "image": "/src/assets/img/bayern-map.png",
             "choices": [
                 "1",
                 "2",
@@ -428,7 +428,7 @@
         },
         {
             "id": 306,
-            "question": "Wo können Sie sich jn Bayern über politische Themen informieren?",
+            "question": "Wo können Sie sich in Bayern über politische Themen informieren?",
             "choices": [
                 "beim Ordnungsamt der Gemeinde",
                 "bei der Landeszentrale für politische Bildung",
@@ -487,7 +487,7 @@
         {
             "id": 301,
             "question": "Welches Wappen gehört zum Bundesland Berlin?",
-            "image": "/src/assets/img/m.png",
+            "image": "/src/assets/img/berlin-wappen.png",
             "choices": [
                 "1",
                 "2",
@@ -565,7 +565,7 @@
         {
             "id": 308,
             "question": "Welches Bundesland ist Berlin?",
-            "image": "/src/assets/img/n.png",
+            "image": "/src/assets/img/berlin-map.png",
             "choices": [
                 "1",
                 "2",
@@ -576,7 +576,7 @@
         },
         {
             "id": 309,
-            "question": "Wie nennt man den Regierungschef / die Regierungschefjn des Stadtstaates Berlin?",
+            "question": "Wie nennt man den Regierungschef / die Regierungschefin des Stadtstaates Berlin?",
             "choices": [
                 "Ministerpräsident/ Ministerpräsidentin",
                 "Oberbürgermeister/ Oberbürgermeisterin",
@@ -595,6 +595,120 @@
                 "Justizminister/Justizministerin"
             ],
             "correct": 3
+        }
+    ],
+    "Brandenburg": [
+        {
+            "id": 301,
+            "question": "Welches Wappen gehört zum Bundesland Brandenburg?",
+            "image": "/src/assets/img/brandenburg-wappen.png",
+            "choices": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 302,
+            "question": "Welches ist ein Landkreis in Brandenburg?",
+            "choices": [
+                "Prignitz",
+                "Rhein-Sieg-Kreis",
+                "Vogtlandkreis",
+                "Amberg-Sulzbach"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 303,
+            "question": "Für wie viele Jahre wird der Landtag in Brandenburg gewählt?",
+            "choices": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 304,
+            "question": "Ab welchem Alter darf man in Brandenburg bei Kommunalwahlen wählen ?",
+            "choices": [
+                "14",
+                "16",
+                "18",
+                "20"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 305,
+            "question": "Welche Farben hat die Landesflagge von Brandenburg?",
+            "choices": [
+                "blau-weiß-rot",
+                "rot-weiß",
+                "grün-weiß-rot",
+                "schwarz-gelb"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 306,
+            "question": "Wo können Sie sich in Brandenburg über politische Themen informieren?",
+            "choices": [
+                "bei den Kirchen",
+                "beim Ordnungsamt der Gemeinde",
+                "bei der Landeszentrale für politische Bildung",
+                "bei der Verbraucherzentrale"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 307,
+            "question": "Die Landeshauptstadt von Brandenburg heißt ...",
+            "choices": [
+                "Potsdam.",
+                "Cottbus.",
+                "Brandenburg.",
+                "Frankfurt/Oder."
+            ],
+            "correct": 1
+        },
+        {
+            "id": 308,
+            "question": "Welches Bundesland ist Brandenburg?",
+            "image": "/src/assets/img/brandenburg-map.png",
+            "choices": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 309,
+            "question": "Wie nennt man den Regierungschef / die Regierungschefin in Brandenburg?",
+            "choices": [
+                "Erster Minister / Erste Ministerin",
+                "Premierminister / Premierministerin",
+                "Bürgermeister / Bürgermeisterin",
+                "Ministerpräsident / Ministerpräsidentin"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 310,
+            "question": "Welches Minister / welche Ministerinen hat Brandenburg nicht?",
+            "choices": [
+                "Justizminister / Justizministerin",
+                "Außenminister / Außenministerin",
+                "Finanzminister / Finanzministerin",
+                "Innenminister / Innenministerin"
+            ],
+            "correct": 2
         }
     ]
 }

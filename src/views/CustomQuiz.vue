@@ -3,9 +3,9 @@
     <div class="container has-text-centered">
       <div v-if="!quizStarted" class="box">
         
-        <h2 class="is-size-2 mt-5 mb-3">Erstellen Sie ein individuelles Quiz</h2>
+        <h2 class="is-size-2 mb-5">Erstellen Sie ein individuelles Quiz</h2>
         <textarea v-model="customQuestionIds" class="textarea" placeholder="Fügen Sie die Fragen-IDs durch Kommas getrennt ein ..."></textarea>
-        <button @click="loadCustomQuiz" class="button is-medium mt-3">Starten Sie das Quiz</button>
+        <button @click="loadCustomQuiz" class="button is-medium mt-5">Starten Sie das Quiz</button>
       </div>
 
       <div v-else class="box">
@@ -34,7 +34,7 @@
 
         <div v-if="quizFinished" class="results">
           <h2 class="is-size-2 mb-5">Quiz-Ergebnisse</h2>
-          <nav class="level">
+          <nav class="level mb-5">
           <div class="level-item level-left has-text-left">
             <p class="is-size-4">
               <span class="heading">Punktzahl</span><br />
@@ -62,7 +62,7 @@
            -->
           </nav>
           <ul class="has-text-left">
-              <li v-for="result in quizStore.results" :key="result.question.id">
+              <li v-for="result in quizStore.results" :key="result.question.id" class="mb-3">
                   <h3 class="has-text-weight-bold">{{ result.question.question }}</h3>
                   <p>Richtig Antwort: {{ result.question.choices[result.question.correct] }}</p>
                   <p>
@@ -72,14 +72,14 @@
                   
               </li>
           </ul>
-          <button @click="resetQuiz" class="button is-medium mt-3">
+          <button @click="resetQuiz" class="button is-medium mt-5">
             Quiz neu starten
           </button>
         </div>
 
       </div>
       <p class="mt-5"  v-if="quizStarted && !quizFinished">
-        <span>Individuelle Quiz - Fragen: {{ customQuestionIds }}</span> - {{ remainingQuestions }} Fragen verbleiben.
+        Individuelle Quiz - {{ customQuestionIds }} - {{ remainingQuestions }} Fragen verbleiben.
       </p>
 
     </div>

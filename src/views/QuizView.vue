@@ -41,7 +41,7 @@
 
         <div v-if="quizFinished" class="results">
           <h2 class="is-size-2 mb-5">Quiz-Ergebnisse</h2>
-          <nav class="level">
+          <nav class="level mb-5">
           <div class="level-item level-left has-text-left">
             <p class="is-size-4">
               <span class="heading">Punktzahl</span><br />
@@ -77,7 +77,7 @@
                   
               </li>
           </ul>
-          <button @click="resetQuiz" class="button is-medium mt-3">
+          <button @click="resetQuiz" class="button is-medium mt-5">
             Quiz neu starten
           </button>
         </div>
