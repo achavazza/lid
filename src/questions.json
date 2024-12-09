@@ -223,7 +223,7 @@
         {
             "id": 21,
             "question": "Welches ist das Wappen der Bundesrepublik Deutschland?",
-            "image": "/src/asset/img/a.png",
+            "image": "/src/assets/img/a.png",
             "choices": [
                 "1",
                 "2",

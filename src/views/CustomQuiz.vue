@@ -126,6 +126,10 @@ const loadCustomQuiz = async () => {
   const ids = customQuestions.value.map(Number).filter(id => !isNaN(id));
   if (ids.length > 0) {
     await quizStore.loadCustomQuestions(ids);
+
+    // Set approval score dynamically
+    quizStore.approvalScore = Math.ceil(ids.length / 2);
+
     quizStarted.value = true;
   } else {
     alert('Please enter valid question IDs separated by commas.');
