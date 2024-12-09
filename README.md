@@ -1,6 +1,7 @@
 # LiD
 
-Leben in Deutchland random quiz generator
+Leben in Deutchland random quiz generator.
+
 all questions are from [BAMF](https://oet.bamf.de/ords/oetut/f?p=514:30)
 
 ## Customize configuration

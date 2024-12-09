@@ -8,10 +8,10 @@ export const useQuizStore = defineStore("quiz", {
         currentQuestionIndex: null, // Index of the current question
         selectedAnswers: {}, // User-selected answers
         results: null, // Results after the quiz ends
-        pickedQuestions: 2, // Default number of picked general questions
-        pickedStateQuestions: 1, // Default number of picked state questions
-        approvalScore: 1, // Minimum score to pass
-        residentApprovalScore: 2, // Minimum score for resident approval
+        pickedQuestions: 5, // Default number of picked general questions
+        pickedStateQuestions: 2, // Default number of picked state questions
+        approvalScore: 3, // Minimum score to pass
+        residentApprovalScore: 5, // Minimum score for resident approval
         selectedState: "Bavaria", // State selected by the user
     }),
     getters: {
@@ -109,6 +109,36 @@ export const useQuizStore = defineStore("quiz", {
                 console.error("Failed to load questions:", error);
             }
         },
+        async loadCustomQuestions(ids) {
+            try {
+                const response = await fetch("/src/questions.json");
+                const data = await response.json();
+
+                this.generalQuestions = data.generalQuestions;
+
+                const filteredQuestions = this.generalQuestions.filter((question) =>
+                    ids.includes(question.id)
+                );
+
+                this.questions = filteredQuestions.map((question, index) => {
+                    const shuffledChoices = this.shuffleArray([...question.choices]);
+                    const originalCorrectChoice = question.choices[question.correct - 1];
+                    const newCorrectIndex = shuffledChoices.indexOf(originalCorrectChoice);
+
+                    return {
+                        id: index + 1, // Assign unique IDs
+                        ...question,
+                        choices: shuffledChoices,
+                        correct: newCorrectIndex,
+                    };
+                });
+
+                this.currentQuestionIndex = 0; // Start the quiz
+                console.log(`Custom Questions Loaded: ${this.questions.length}`);
+            } catch (error) {
+                console.error("Failed to load custom questions:", error);
+            }
+        }, 
         //shufflearray randomiza claves en un array
         shuffleArray(array) {
             // Fisher-Yates shuffle algorithm
@@ -134,8 +164,9 @@ export const useQuizStore = defineStore("quiz", {
                 this.currentQuestionIndex++;
             } else {
                 this.calculateResults();
+                this.currentQuestionIndex = null; // Mark quiz as finished
             }
-        },
+        } ,
         calculateResults() {
             this.results = this.questions.map((question) => {
                 const userAnswer = this.selectedAnswers[question.id];

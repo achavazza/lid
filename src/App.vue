@@ -20,9 +20,8 @@ import { RouterLink, RouterView } from 'vue-router'
           </div>
           <div id="navbarMenuHeroC" class="navbar-menu">
             <div class="navbar-end">
-              <RouterLink class="navbar-item" to="/">Home</RouterLink>
-              <RouterLink class="navbar-item" to="/results">Results</RouterLink>
-              <RouterLink class="navbar-item" to="/about">About</RouterLink>
+              <RouterLink class="navbar-item" to="/">Quiz</RouterLink>
+              <RouterLink class="navbar-item" to="/custom">Custom</RouterLink>
             </div>
           </div>
         </div>

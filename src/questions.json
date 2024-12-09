@@ -21,6 +21,238 @@
                 "Sprachunterricht teilnimmt."
             ],
             "correct": 2
+        },
+        {
+            "id": 3,
+            "question": "Deutschland ist ein Rechtsstaat. Was ist damit gemeint?",
+            "choices": [
+                "Alle Einwohner / Einwohnerinnen und der Staat müssen sich an die Gesetze halten.",
+                "Der Staat muss sich nicht an die Gesetze halten.",
+                "Nur Deutsche müssen die Gesetze befolgen.",
+                "Die Gerichte machen die Gesetze."
+            ],
+            "correct": 1
+        },
+        {
+            "id": 4,
+            "question": "Welches Recht gehört zu den Grundrechten in Deutschland?",
+            "choices": [
+                "Waffenbesitz",
+                "Faustrecht",
+                "Meinungsfreiheit",
+                "Selbstjustiz"
+            ],   
+            "correct": 3
+        },
+        {
+            "id": 5,
+            "question": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+            "choices": [
+                "Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten / eine bestimmte Kandidatin wählt.",
+                "Nur Personen, die noch nie im Gefängnis waren, dürfen wählen. ",
+                "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
+                "Alle wahlberechtigten Personen müssen wählen."
+            ],
+            "correct": 3
+        },
+        {
+            "id": 6,
+            "question": "Wie heißt die deutsche Verfassung?",
+            "choices": [
+                "Volksgesetz",
+                "Bundesgesetz",
+                "Deutsches Gesetz",
+                "Grundgesetz"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 7,
+            "question": "Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …",
+            "choices": [
+                "Glaubens- und Gewissensfreiheit",
+                "Unterhaltung",
+                "Arbeit",
+                "Wohnung"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 8,
+            "question": "Was steht nicht im Grundgesetz von Deutschland?",
+            "choices": [
+                "Die Würde des Menschen ist unantastbar.",
+                "Alle sollen gleich viel Geld haben.",
+                "Jeder Mensch darf seine Meinung sagen.",
+                "Alle sind vor dem Gesetz gleich."
+            ],
+            "correct": 2
+        },
+        {
+            "id": 9,
+            "question": "Welches Grundrecht gilt in Deutschland nur für Ausländer / Ausländerinnen? Das Grundrecht auf …",
+            "choices": [
+                "Schutz der Familie",
+                "Menschenwürde",
+                "Asyl",
+                "Meinungsfreiheit"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 10,
+            "question": "Was ist mit dem deutschen Grundgesetz vereinbar?",
+            "choices": [
+                "Die Prügelstrafe",
+                "Die Folter",
+                "Die Todesstrafe",
+                "Die Geldstrafe "
+            ],
+            "correct": 4
+        },
+        {
+            "id": 11,
+            "question": "Wie wird die Verfassung der Bundesrepublik Deutschland genannt?",
+            "choices": [
+                "Grundgesetz",
+                "Bundesverfassung",
+                "Gesetzbuch",
+                "Verfassungsvertrag"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 12,
+            "question": "Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?",
+            "choices": [
+                "Ja, wenn mehr als die Hälfte der Abgeordneten im Bundestag dafür sind.",
+                "Ja, aber dazu müssen zwei Drittel der Abgeordneten im Bundestag dafür sein.",
+                "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
+                "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen."
+            ],
+            "correct": 3
+        },
+        {
+            "id": 13,
+            "question": "Im Parlament steht der Begriff „Opposition“ für …",
+            "choices": [
+                "die regierenden Parteien.",
+                "die Fraktion mit den meisten Abgeordneten.",
+                "alle Parteien, die bei der letzten Wahl die 5 %-Hürde erreichen konnten.",
+                "alle Abgeordneten, die nicht zu der Regierungspartei / den Regierungsparteien gehören."
+            ],
+            "correct": 4
+        },
+        {
+            "id": 14,
+            "question": "Meinungsfreiheit in Deutschland heißt, dass ich …",
+            "choices": [
+                "auf Flugblättern falsche Tatsachen behaupten darf.",
+                "meine Meinung in Leserbriefen äußern kann.",
+                "Nazi-Symbole tragen darf.",
+                "meine Meinung sagen darf, solange ich der Regierung nicht widerspreche."
+            ],
+            "correct": 2
+        },
+        {
+            "id": 15,
+            "question": "Was verbietet das Grundgesetz?",
+            "choices": [
+                "Militärdienst",
+                "Zwangsarbeit",
+                "Freie Berufswahl",
+                "Arbeit im Ausland"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 16,
+            "question": "Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?",
+            "choices": [
+                "Bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen",
+                "Bei Meinungsäußerungen über die Bundesregierung",
+                "Bei Diskussionen über Religionen",
+                "Bei Kritik am Staat"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 17,
+            "question": "Die deutschen Gesetze verbieten …",
+            "choices": [
+                "Meinungsfreiheit der Einwohner und Einwohnerinnen.",
+                "Petitionen der Bürger und Bürgerinnen.",
+                "Versammlungsfreiheit der Einwohner und Einwohnerinnen.",
+                "Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat."
+            ],
+            "correct": 4
+        },
+        {
+            "id": 18,
+            "question": "Welches Grundrecht ist in Artikel 1 des Grundgesetzes der Bundesrepublik Deutschland garantiert?",
+            "choices": [
+                "Die Unantastbarkeit der Menschenwürde ",
+                "Das Recht auf Leben ",
+                "Religionsfreiheit ",
+                "Meinungsfreiheit"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 19,
+            "question": "Was versteht man unter dem Recht der „Freizügigkeit“ in Deutschland?",
+            "choices": [
+                "Man darf sich seinen Wohnort selbst aussuchen.",
+                "Man kann seinen Beruf wechseln.",
+                "Man darf sich für eine andere Religion entscheiden.",
+                "Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen."
+            ],
+            "correct": 1
+        },
+        {
+            "id": 20,
+            "question": "Eine Partei in Deutschland verfolgt das Ziel, eine Diktatur zu errichten. Sie ist dann …",
+            "choices": [
+                "tolerant.",
+                "rechtsstaatlich orientiert.",
+                "gesetzestreu.",
+                "verfassungswidrig."
+            ],
+            "correct": 4
+        },
+        {
+            "id": 21,
+            "question": "Welches ist das Wappen der Bundesrepublik Deutschland?",
+            "image": "/src/asset/img/a.png",
+            "choices": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 22,
+            "question": "Was für eine Staatsform hat Deutschland?",
+            "choices": [
+                "Monarchie",
+                "Diktatur",
+                "Republik",
+                "Fürstentum"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 23,
+            "question": "In Deutschland sind die meisten Erwerbstätigen …",
+            "choices": [
+                "in kleinen Familienunternehmen beschäftigt.",
+                "ehrenamtlich für ein Bundesland tätig.",
+                "selbstständig mit einer eigenen Firma tätig.",
+                "bei einer Firma oder Behörde beschäftigt."
+            ],
+            "correct": 4
         }
     ],
     "Bavaria": [
