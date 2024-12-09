@@ -67,7 +67,7 @@
           </div>
           </nav>
           <ul class="has-text-left">
-              <li v-for="result in quizStore.results" :key="result.question.id">
+              <li v-for="result in quizStore.results" :key="result.question.id" class="mb-3">
                   <h3 class="has-text-weight-bold">{{ result.question.question }}</h3>
                   <p>Correct Answer: {{ result.question.choices[result.question.correct] }}</p>
                   <p>

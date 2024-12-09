@@ -15,7 +15,7 @@
                     }}
                 </p>
                 <ul>
-                    <li v-for="result in quizStore.results" :key="result.question.id">
+                    <li v-for="result in quizStore.results" :key="result.question.id" class="mb-3">
                         <h3>{{ result.question.question }}</h3>
                         <p>Your Answer: {{ result.question.choices[result.userAnswer] }}</p>
                         <p>Correct Answer: {{ result.question.choices[result.question.correct] }}</p>
