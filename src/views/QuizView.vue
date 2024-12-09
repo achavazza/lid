@@ -83,7 +83,7 @@
         </div>
 
       </div>
-      <p class="mt-5" v-if="!quizFinished">
+      <p class="mt-5" v-if="quizStarted">
         <span>{{ quizStore.selectedState }}</span> - {{ remainingQuestions }} questions remaining.
       </p>
     </div>

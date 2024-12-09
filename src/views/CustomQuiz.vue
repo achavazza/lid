@@ -78,7 +78,7 @@
         </div>
 
       </div>
-      <p class="mt-5" v-if="!quizFinished">
+      <p class="mt-5" v-if="quizStarted">
         <span>Custom Quiz {{ customQuestionIds }}</span> - {{ remainingQuestions }} questions remaining.
       </p>
 
