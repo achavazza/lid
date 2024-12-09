@@ -2,7 +2,7 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <div v-if="!quizStarted" class="box">
-        <h1 class="is-size-2 mb-5">Select Your State</h1>
+        <h1 class="is-size-2 mb-5">Wählen Sie Ihren Staat</h1>
         <div class="states">
           <button
             v-for="state in states"
@@ -39,29 +39,29 @@
           </div>
         </div>
 
-        <div v-if="quizFinished" class="results mt-5">
-          <h2 class="is-size-2 mb-5">Quiz Results</h2>
+        <div v-if="quizFinished" class="results">
+          <h2 class="is-size-2 mb-5">Quiz-Ergebnisse</h2>
           <nav class="level">
-          <div class="level-item has-text-left">
+          <div class="level-item level-left has-text-left">
             <p class="is-size-4">
-              <span class="heading">Score</span><br />
+              <span class="heading">Punktzahl</span><br />
               <span class="title">{{ correctAnswersCount }} / {{ quizStore.questions.length }}</span>
             </p>
           </div>
-          <div class="level-item has-text-left">
+          <div class="level-item level-left has-text-left">
             <p class="is-size-4">
 
-              <span class="heading">Passed (needed: {{ quizStore.approvalScore }})</span><br />
+              <span class="heading">Bestandene (nötig {{ quizStore.approvalScore }})</span><br />
               <span class="title" :class="{ approved: quizStore.isApproved, notApproved: !quizStore.isApproved }">
-                {{ quizStore.isApproved ? "You Passed!" : "You Did Not Pass" }}
+                {{ quizStore.isApproved ? "Sie haben bestanden!" : "Sie haben nicht bestanden" }}
               </span>
             </p>
           </div>
-          <div class="level-item has-text-left">
+          <div class="level-item level-left has-text-left">
             <p class="is-size-4">
-            <span class="heading">Residential Approval (needed: {{ quizStore.residentApprovalScore }})</span><br />
+            <span class="heading">Einbürgerungsprüfung (nötig {{ quizStore.residentApprovalScore }})</span><br />
             <span class="title" :class="{ approved: quizStore.hasResidentApproval, notApproved: !quizStore.hasResidentApproval }">
-                {{ quizStore.hasResidentApproval ? "Achieved!" : "Not Achieved" }}
+                {{ quizStore.hasResidentApproval ? "Erreicht!" : "Nicht Erreicht" }}
             </span>  
             </p>  
           </div>
@@ -69,22 +69,22 @@
           <ul class="has-text-left">
               <li v-for="result in quizStore.results" :key="result.question.id" class="mb-3">
                   <h3 class="has-text-weight-bold">{{ result.question.question }}</h3>
-                  <p>Correct Answer: {{ result.question.choices[result.question.correct] }}</p>
+                  <p>Richtig Antwort: {{ result.question.choices[result.question.correct] }}</p>
                   <p>
-                    Your Answer: {{ result.question.choices[result.userAnswer]}} <span :class="{ correct: result.isCorrect, incorrect: !result.isCorrect }">
-                      {{ result.isCorrect ? "Correct" : "Incorrect" }}
+                    Deine Antwort: {{ result.question.choices[result.userAnswer]}} <span :class="{ correct: result.isCorrect, incorrect: !result.isCorrect }">
+                      {{ result.isCorrect ? "Richtig" : "Falsch" }}
                   </span></p>
                   
               </li>
           </ul>
           <button @click="resetQuiz" class="button is-medium mt-3">
-            Restart Quiz
+            Quiz neu starten
           </button>
         </div>
 
       </div>
-      <p class="mt-5" v-if="quizStarted">
-        <span>{{ quizStore.selectedState }}</span> - {{ remainingQuestions }} questions remaining.
+      <p class="mt-5" v-if="quizStarted && !quizFinished">
+        <span>{{ quizStore.selectedState }}</span> - {{ remainingQuestions }} Fragen verbleiben.
       </p>
     </div>
   </div>
@@ -132,15 +132,3 @@ import { useQuizStore } from "@/stores/quizStore";
     });
    
 </script>
-
-<style>
-.approved,
-.correct {
-  color: hsl(141, 71%, 48%);
-}
-
-.notApproved,
-.incorrect {
-  color: hsl(348, 100%, 61%);
-}
-</style>

@@ -1,3 +1,4 @@
+@use "bulma/sass";
 .question-number{
     position:absolute;
     padding:10px 20px;
@@ -6,3 +7,12 @@
 }
 .box{padding:3em}
 .button{white-space: normal;text-align: inherit;}
+.approved,
+.correct {
+    color: sass.$success;
+}
+
+.notApproved,
+.incorrect {
+    color: sass.$danger;
+}
