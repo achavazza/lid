@@ -8,7 +8,7 @@
             v-for="state in states"
             :key="state"
             @click="selectState(state)"
-            class="button is-medium mx-1"
+            class="button is-medium mx-1 mb-2"
           >
             {{ state }}
           </button>

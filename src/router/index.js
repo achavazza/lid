@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import QuizView from '../views/QuizView.vue';
 import CustomQuiz from "../views/CustomQuiz.vue";
 import QuizTest from '../views/QuizTest.vue';
+import AllQuestions from '../views/AllQuestions.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,6 +14,7 @@ const router = createRouter({
     },
     { path: "/custom", component: CustomQuiz }, // Add this route
     { path: "/test", component: QuizTest }, // Add this route
+    { path: "/all", component: AllQuestions }, // Add this route
     
   ],
 })

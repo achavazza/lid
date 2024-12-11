@@ -111,15 +111,18 @@ export const useQuizStore = defineStore("quiz", {
         },
         async loadCustomQuestions(ids) {
             try {
+                //cargo el json
                 const response = await fetch("/src/questions.json");
                 const data = await response.json();
 
                 this.generalQuestions = data.generalQuestions;
 
+                //cargo en el state solo las preguntas elegidas
                 const filteredQuestions = this.generalQuestions.filter((question) =>
                     ids.includes(question.id)
                 );
 
+                //cargo las preguntas al azar para mostrar
                 this.questions = filteredQuestions.map((question, index) => {
                     const shuffledChoices = this.shuffleArray([...question.choices]);
                     const originalCorrectChoice = question.choices[question.correct - 1];
@@ -139,6 +142,26 @@ export const useQuizStore = defineStore("quiz", {
                 console.error("Failed to load custom questions:", error);
             }
         }, 
+        // Function to load all questions (general and state-specific)
+        async loadAllQuestions(){
+            try {
+                const response = await fetch("/src/questions.json");
+                const data = await response.json();
+                
+                //asigno a una variable
+                this.generalQuestions = data.generalQuestions;
+                // Assign state-specific questions
+                this.stateQuestions = {};
+                for (const [state, questions] of Object.entries(data)) {
+                    if (state !== "generalQuestions") {
+                        this.stateQuestions[state] = questions;
+                    }
+                }
+            } catch {
+                console.log('Some error');
+            }
+            
+        },
         //shufflearray randomiza claves en un array
         shuffleArray(array) {
             // Fisher-Yates shuffle algorithm
