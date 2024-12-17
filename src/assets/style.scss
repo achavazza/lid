@@ -20,3 +20,8 @@
 .normal {
     color: sass.$grey-lighter;
 }
+
+.breakline{
+    white-space: normal !important;
+}
+.level-item{max-width:90%}

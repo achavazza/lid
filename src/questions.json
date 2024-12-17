@@ -253,6 +253,811 @@
                 "bei einer Firma oder Behörde beschäftigt."
             ],
             "correct": 4
+        },
+        {
+            "id": 24,
+            "question": "Wie viele Bundesländer hat die Bundesrepublik Deutschland?",
+            "choices": [
+                "14",
+                "15",
+                "16",
+                "17"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 25,
+            "question": "Was ist kein Bundesland der Bundesrepublik Deutschland? ",
+            "choices": [
+                "Elsass-Lothringen",
+                "Nordhein-Westfalen",
+                "Mecklenburg-Vorpommern",
+                "Sachsen-Anhalt"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 26,
+            "question": "Deutschland ist …",
+            "choices": [
+                "eine kommunistische Republik.",
+                "ein demokratischer und sozialer Bundesstaat.",
+                "eine kapitalistische und soziale Monarchie.",
+                "ein sozialer und sozialistischer Bundesstaat. "
+            ],
+            "correct": 2
+        },
+        {
+            "id": 27,
+            "question": "Deutschland ist …",
+            "choices": [
+                "ein sozialistischer Staat.",
+                "ein Bundesstaat.",
+                "eine Diktatur.",
+                "eine Monarchie."
+            ],
+            "correct": 2
+        },
+        {
+            "id": 28,
+            "question": "Wer wählt in Deutschland die Abgeordneten zum Bundestag?",
+            "choices": [
+                "Das Militär ",
+                "Die Wirtschaft ",
+                "Das wahlberechtigte Volk ",
+                "Die Verwaltung"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 29,
+            "question": "Welches Tier ist das Wappentier der Bundesrepublik Deutschland?",
+            "choices": [
+                "Löwe",
+                "Adler",
+                "Bär",
+                "Pferd"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 30,
+            "question": "Was ist kein Merkmal unserer Demokratie?",
+            "choices": [
+                "Regelmäßige Wahlen",
+                "Pressezensur",
+                "Meinungsfreiheit",
+                "Verschiedene Parteien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 31,
+            "question": "Die Zusammenarbeit von Parteien zur Bildung einer Regierung nennt man in Deutschland …",
+            "choices": [
+                "Einheit.",
+                "Koalition.",
+                "Ministerium.",
+                "Fraktion."
+            ],
+            "correct": 2
+        },
+        {
+            "id": 32,
+            "question": "Was ist keine staatliche Gewalt in Deutschland?",
+            "choices": [
+                "Gesetzgebung",
+                "Regierung",
+                "Presse",
+                "Rechtsprechung"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 33,
+            "question": "Welche Aussage ist richtig? In Deutschland … ",
+            "choices": [
+                "sind Staat und Religionsgemeinschaften voneinander getrennt.",
+                "bilden die Religionsgemeinschaften den Staat.",
+                "ist der Staat abhängig von den Religionsgemeinschaften.",
+                "bilden Staat und Religionsgemeinschaften eine Einheit."
+            ],
+            "correct": 1
+        },
+        {
+            "id": 34,
+            "question": "Was ist Deutschland nicht?",
+            "choices": [
+                "Eine Demokratie",
+                "Ein Rechtsstaat",
+                "Eine Monarchie",
+                "Ein Sozialstaat"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 35,
+            "question": "Womit finanziert der deutsche Staat die Sozialversicherung?",
+            "choices": [
+                "Kirchensteuern",
+                "Sozialabgaben",
+                "Spendengeldern",
+                "Vereinsbeiträgen"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 36,
+            "question": "Welche Maßnahme schafft in Deutschland soziale Sicherheit?",
+            "choices": [
+                "Die Krankenversicherung",
+                "Die Autoversicherung",
+                "Die Gebäudeversicherung",
+                "Die Haftpflichtversicherung"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 37,
+            "question": "Wie werden die Regierungschefs / Regierungschefinnen der meisten Bundesländer in Deutschland genannt?",
+            "choices": [
+                "Erster Minister / Erste Ministerin",
+                "Premierminister / Premierministerin",
+                "Senator / Senatorin",
+                "Ministerpräsident / Ministerpräsidentin"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 38,
+            "question": "Die Bundesrepublik Deutschland ist ein demokratischer und sozialer …",
+            "choices": [
+                "Staatenverbund.",
+                "Bundesstaat.",
+                "Staatenbund.",
+                "Zentralstaat."
+            ],
+            "correct": 2
+        },
+        {
+            "id": 39,
+            "question": "Was hat jedes deutsche Bundesland?",
+            "choices": [
+                "Einen eigenen Außenminister / eine eigene Außenministerin",
+                "Eine eigene Währung",
+                "Eine eigene Armee",
+                "Eine eigene Regierung"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 40,
+            "question": "Mit welchen Worten beginnt die deutsche Nationalhymne?",
+            "choices": [
+                "Völker, hört die Signale …",
+                "Einigkeit und Recht und Freiheit … ",
+                "Freude schöner Götterfunken …",
+                "Deutschland einig Vaterland … "
+            ],
+            "correct": 2
+        },
+        {
+            "id": 41,
+            "question": "Warum gibt es in einer Demokratie mehr als eine Partei?",
+            "choices": [
+                "Weil dadurch die unterschiedlichen Meinungen der Bürger und Bürgerinnen vertreten werden",
+                "Damit Bestechung in der Politik begrenzt wird",
+                "Um politische Demonstrationen zu verhindern",
+                "Um wirtschaftlichen Wettbewerb anzuregen"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 42,
+            "question": "Wer beschließt in Deutschland ein neues Gesetz?",
+            "choices": [
+                "Die Regierung",
+                "Das Parlament",
+                "Die Gerichte",
+                "Die Polizei"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 43,
+            "question": "Wann kann in Deutschland eine Partei verboten werden?",
+            "choices": [
+                "Wenn ihr Wahlkampf zu teuer ist",
+                "Wenn sie gegen die Verfassung kämpft",
+                "Wenn sie Kritik am Staatsoberhaupt äußert",
+                "Wenn ihr Programm eine neue Richtung vorschlägt "
+            ],
+            "correct": 2
+        },
+        {
+            "id": 44,
+            "question": "Wen kann man als Bürger / Bürgerin in Deutschland nicht direkt wählen?",
+            "choices": [
+                "Abgeordnete des EU-Parlaments",
+                "Den Bundespräsidenten / die Bundespräsidentin",
+                "Landtagsabgeordnete",
+                "Bundestagsabgeordnete "
+            ],
+            "correct": 2
+        },
+        {
+            "id": 45,
+            "question": "Zu welcher Versicherung gehört die Pflegeversicherung?",
+            "choices": [
+                "Sozialversicherung",
+                "Unfallversicherung",
+                "Hausratsversicherung",
+                "Haftpflicht- und Feuerversicherung"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 46,
+            "question": "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?",
+            "choices": [
+                "Er baut Straßen und Schulen.",
+                "Er verkauft Lebensmittel und Kleidung.",
+                "Er versorgt alle Einwohner und Einwohnerinnen kostenlos mit Zeitungen.",
+                "Er produziert Autos und Busse."
+            ],
+            "correct": 1
+        },
+        {
+            "id": 47,
+            "question": "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört nicht dazu? ",
+            "choices": [
+                "Er bezahlt für alle Staatsangehörigen Urlaubsreisen.",
+                "Er zahlt Kindergeld.",
+                "Er unterstützt Museen.",
+                "Er fördert Sportler und Sportlerinnen."
+            ],
+            "correct": 1
+        },
+        {
+            "id": 48,
+            "question": " Welches Organ gehört nicht zu den Verfassungsorganen Deutschlands? ",
+            "choices": [
+                "Der Bundesrat",
+                "Der Bundespräsident / die Bundespräsidentin",
+                "Die Bürgerversammlung",
+                "Die Regierung "
+            ],
+            "correct": 3
+        },
+        {
+            "id": 49,
+            "question": "Wer bestimmt in Deutschland die Schulpolitik?",
+            "choices": [
+                "Die Lehrer und Lehrerinnen",
+                "Die Bundesländer",
+                "Das Familienministerium",
+                "Die Universitäten"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 50,
+            "question": "Die Wirtschaftsform in Deutschland nennt man …",
+            "choices": [
+                "freie Zentralwirtschaft.",
+                "soziale Marktwirtschaft.",
+                "gelenkte Zentralwirtschaft.",
+                "Planwirtschaft. "
+            ],
+            "correct": 2
+        },
+        {
+            "id": 51,
+            "question": "Zu einem demokratischen Rechtsstaat gehört es nicht, dass … ",
+            "choices": [
+                "Menschen sich kritisch über die Regierung äußern können.",
+                "Bürger friedlich demonstrieren gehen dürfen.",
+                "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
+                "jemand ein Verbrechen begeht und deshalb verhaftet wird."
+            ],
+            "correct": 3
+        },
+        {
+            "id": 52,
+            "question": "Was bedeutet „Volkssouveränität“? Alle Staatsgewalt geht vom … ",
+            "choices": [
+                "Volke aus.",
+                "Bundestag aus.",
+                "preußischen König aus.",
+                "Bundesverfassungsgericht aus."
+            ],
+            "correct": 1
+        },
+        {
+            "id": 53,
+            "question": "Was bedeutet „Rechtsstaat“ in Deutschland?",
+            "choices": [
+                "Der Staat hat Recht.",
+                "Es gibt nur rechte Parteien.",
+                "Die Bürger und Bürgerinnen entscheiden über Gesetze.",
+                "Der Staat muss die Gesetze einhalten."
+            ],
+            "correct": 4
+        },
+        {
+            "id": 54,
+            "question": "Was ist keine staatliche Gewalt in Deutschland?",
+            "choices": [
+                "Legislative",
+                "Judikative",
+                "Exekutive",
+                "Direktive"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 55,
+            "question": "Was zeigt dieses Bild?",
+            "image": "/src/assets/img/b.png",
+            "choices": [
+                "Den Bundestagssitz in Berlin",
+                "Das Bundesverfassungs- gericht in Karlsruhe",
+                "Das Bundesratsgebäude in Berlin",
+                "Das Bundeskanzleramt in Berlin"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 56,
+            "question": "Welches Amt gehört in Deutschland zur Gemeindeverwaltung?",
+            "choices": [
+                "Pfarramt",
+                "Ordnungsamt",
+                "Finanzamt",
+                "Auswärtiges Amt"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 57,
+            "question": "Wer wird meistens zum Präsidenten / zur Präsidentin des Deutschen Bundestages gewählt?",
+            "choices": [
+                "Der/die älteste Abgeordnete im Parlament",
+                "Der Ministerpräsident / die Ministerpräsidentin des größten Bundeslandes",
+                "Ein ehemaliger Bundeskanzler / eine ehemalige Bundes kanzlerin",
+                "Ein Abgeordneter / eine Abgeordnete der stärksten Fraktion"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 57,
+            "question": "Wer wird meistens zum Präsidenten / zur Präsidentin des Deutschen Bundestages gewählt?",
+            "choices": [
+                "Der/die älteste Abgeordnete im Parlament",
+                "Der Ministerpräsident / die Ministerpräsidentin des größten Bundeslandes",
+                "Ein ehemaliger Bundeskanzler / eine ehemalige Bundes kanzlerin",
+                "Ein Abgeordneter / eine Abgeordnete der stärksten Fraktion"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 58,
+            "question": "Wer ernennt in Deutschland die Minister / die Ministerinnen der Bundesregierung?",
+            "choices": [
+                "Der Präsident / die Präsidentin des Bundesverfassungs gerichts",
+                "Der Bundespräsident / die Bundespräsidentin",
+                "Der Bundesratspräsident / die Bundesratspräsidentin",
+                "Der Bundestagspräsident / die Bundestagspräsidentin"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 59,
+            "question": "Welche Parteien wurden in Deutschland 2007 zur Partei „Die Linke“?",
+            "choices": [
+                "CDU und SSW",
+                "PDS und WASG",
+                "CSU und FDP",
+                "Bündnis 90 / Die Grünen und SPD "
+            ],
+            "correct": 2
+        },
+        {
+            "id": 60,
+            "question": "In Deutschland gehören der Bundestag und der Bundesrat zur … ",
+            "choices": [
+                "Exekutive.",
+                "Legislative.",
+                "Direktive.",
+                "Judikative."
+            ],
+            "correct": 2
+        },
+        {
+            "id": 61,
+            "question": "Was bedeutet „Volkssouveränität“?",
+            "choices": [
+                "Der König / die Königin herrscht über das Volk.",
+                "Das Bundesverfassungsgericht steht über der Verfassung.",
+                "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
+                "Die Staatsgewalt geht vom Volke aus."
+            ],
+            "correct": 4
+        },
+        {
+            "id": 62,
+            "question": "Wenn das Parlament eines deutschen Bundeslandes gewählt wird, nennt man das …",
+            "choices": [
+                "Kommunalwahl.",
+                "Landtagswahl.",
+                "Europawahl.",
+                "Bundestagswahl."
+            ],
+            "correct": 2
+        },
+        {
+            "id": 63,
+            "question": "Was gehört in Deutschland nicht zur Exekutive?",
+            "choices": [
+                "Die Polizei",
+                "Die Gerichte",
+                "Das Finanzamt",
+                "Die Ministerien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 64,
+            "question": "Die Bundesrepublik Deutschland ist heute gegliedert in …",
+            "choices": [
+                "vier Besatzungszonen.",
+                "einen Oststaat und einen Weststaat.",
+                "16 Kantone.",
+                "Bund, Länder und Kommunen."
+            ],
+            "correct": 4
+        },
+        {
+            "id": 65,
+            "question": "Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …",
+            "choices": [
+                "die Gesetze zu entwerfen.",
+                "die Bundesregierung zu kontrollieren.",
+                "den Bundeskanzler / die Bundeskanzlerin zu wählen.",
+                "das Bundeskabinett zu bilden. "
+            ],
+            "correct": 4
+        },
+        {
+            "id": 66,
+            "question": "Wer schrieb den Text zur deutschen Nationalhymne?",
+            "choices": [
+                "Friedrich von Schiller",
+                "Clemens Brentano",
+                "Johann Wolfgang von Goethe",
+                "Heinrich Hoffmann von Fallersleben "
+            ],
+            "correct": 4
+        },
+        {
+            "id": 67,
+            "question": "Was ist in Deutschland vor allem eine Aufgabe der Bundesländer?",
+            "choices": [
+                "Verteidigungspolitik",
+                "Außenpolitik",
+                "Wirtschaftspolitik",
+                "Schulpolitik"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 68,
+            "question": "Warum kontrolliert der Staat in Deutschland das Schulwesen?",
+            "choices": [
+                "Weil es in Deutschland nur staatliche Schulen gibt",
+                "Weil alle Schüler und Schülerinnen einen Schulabschluss haben müssen",
+                "Weil es in den Bundesländern verschiedene Schulen gibt",
+                "Weil es nach dem Grundgesetz seine Aufgabe ist"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 69,
+            "question": "Die Bundesrepublik Deutschland hat einen dreistufigen Verwaltungsaufbau. Wie heißt die unterste politische Stufe?",
+            "choices": [
+                "Stadträte",
+                "Landräte",
+                "Gemeinden",
+                "Bezirksämter"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 70,
+            "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundes kanzler. Was gehört zu den Aufgaben des deutschen Bundespräsidenten / der deutschen Bundespräsidentin?",
+            "image": "/src/assets/img/c.png",
+            "choices": [
+                "Er/Sie führt die Regierungsgeschäfte.",
+                "Er/Sie kontrolliert die Regierungspartei.",
+                "Er/Sie wählt die Minister / Ministerinnen aus.",
+                "Er/Sie schlägt den Kanzler / die Kanzlerin zur Wahl vor. "
+            ],
+            "correct": 4
+        },
+        {
+            "id": 71,
+            "question": "Wo hält sich der deutsche Bundeskanzler / die deutsche Bundes kanzlerin am häufigsten auf? Am häufigsten ist er/sie …",
+            "choices": [
+                "in Bonn, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
+                "auf Schloss Meseberg, dem Gästehaus der Bundesregierung, um Staatsgäste zu empfangen.",
+                "auf Schloss Bellevue, dem Amtssitz des Bundespräsidenten / der Bundespräsidentin, um Staatsgäste zu empfangen.",
+                "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden."
+            ],
+            "correct": 4
+        },
+        {
+            "id": 72,
+            "question": "Wie heißt der jetzige Bundeskanzler / die jetzige Bundeskanzlerin von Deutschland?",
+            "choices": [
+                "Gerhard Schröder",
+                "Angela Merkel",
+                "Franziska Giffey",
+                "Olaf Scholz"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 73,
+            "question": "Die beiden größten Fraktionen im Deutschen Bundestag heißen zurzeit …",
+            "choices": [
+                "CDU/CSU und SPD.",
+                "Die Linke und Bündnis 90 / Die Grünen.",
+                "FDP und SPD.",
+                "Die Linke und FDP."
+            ],
+            "correct": 1
+        },
+        {
+            "id": 74,
+            "question": "Wie heißt das Parlament für ganz Deutschland?",
+            "choices": [
+                "Bundesversammlung",
+                "Volkskammer",
+                "Bundestag",
+                "Bundesgerichtshof"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 75,
+            "question": "Wie heißt Deutschlands heutiges Staatsoberhaupt?",
+            "choices": [
+                "Frank-Walter Steinmeier",
+                "Bärbel Bas",
+                "Bodo Ramelow",
+                "Joachim Gauck"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 76,
+            "question": "Was bedeutet die Abkürzung CDU in Deutschland?",
+            "choices": [
+                "Christliche Deutsche Union",
+                "Club Deutscher Unternehmer",
+                "Christlicher Deutscher Umweltschutz",
+                "Christlich Demokratische Union "
+            ],
+            "correct": 4
+        },
+        {
+            "id": 77,
+            "question": "Was ist die Bundeswehr?",
+            "choices": [
+                "Die deutsche Polizei",
+                "Ein deutscher Hafen",
+                "Eine deutsche Bürgerinitiative",
+                "Die deutsche Armee"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 78,
+            "question": "Was bedeutet die Abkürzung SPD?",
+            "choices": [
+                "Sozialistische Partei Deutschlands",
+                "Sozialpolitische Partei Deutschlands",
+                "Sozialdemokratische Partei Deutschlands",
+                "Sozialgerechte Partei Deutschlands"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 79,
+            "question": "Was bedeutet die Abkürzung FDP in Deutschland?",
+            "choices": [
+                "Friedliche Demonstrative Partei",
+                "Freie Deutschland Partei",
+                "Führende Demokratische Partei",
+                "Freie Demokratische Partei"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 80,
+            "question": "Welches Gericht in Deutschland ist zuständig für die Auslegung des Grundgesetzes? ",
+            "choices": [
+                "Oberlandesgericht",
+                "Amtsgericht",
+                "Bundesverfassungsgericht",
+                "Verwaltungsgericht "
+            ],
+            "correct": 3
+        },
+        {
+            "id": 81,
+            "question": "Wer wählt den Bundeskanzler / die Bundeskanzlerin in Deutschland?",
+            "choices": [
+                "Der Bundesrat",
+                "Die Bundesversammlung",
+                "Das Volk",
+                "Der Bundestag "
+            ],
+            "correct": 4
+        },
+        {
+            "id": 82,
+            "question": "Wer leitet das deutsche Bundeskabinett?",
+            "choices": [
+                "Der Bundestagspräsident / die Bundestagspräsidentin",
+                "Der Bundespräsident / die Bundespräsidentin",
+                "Der Bundesratspräsident / die Bundesratspräsidentin",
+                "Der Bundeskanzler / die Bundeskanzlerin"
+            ],
+            "correct": 4
+        },
+        {
+            "id": 83,
+            "question": "Wer wählt den deutschen Bundeskanzler / die deutsche Bundeskanzlerin?",
+            "choices": [
+                "Das Volk",
+                "Die Bundesversammlung",
+                "Der Bundestag",
+                "Die Bundesregierung"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 84,
+            "question": "Welche Hauptaufgabe hat der deutsche Bundespräsident / die deutsche Bundespräsidentin? Er/Sie …",
+            "choices": [
+                "regiert das Land.",
+                "entwirft die Gesetze.",
+                "repräsentiert das Land.",
+                "überwacht die Einhaltung der Gesetze."
+            ],
+            "correct": 3
+        },
+        {
+            "id": 85,
+            "question": "Wer bildet den deutschen Bundesrat?",
+            "choices": [
+                "Die Abgeordneten des Bundestages",
+                "Die Minister und Ministerinnen der Bundesregierung",
+                "Die Regierungsvertreter der Bundesländer",
+                "Die Parteimitglieder "
+            ],
+            "correct": 3
+        },
+        {
+            "id": 86,
+            "question": "Wer wählt in Deutschland den Bundespräsidenten / die Bundes präsidentin?",
+            "choices": [
+                "Die Bundesversammlung",
+                "Der Bundesrat",
+                "Das Bundesparlament",
+                "Das Bundesverfassungsgericht"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 87,
+            "question": "Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?",
+            "choices": [
+                "Der Bundeskanzler / die Bundeskanzlerin",
+                "Der Bundespräsident / die Bundespräsidentin",
+                "Der Bundesratspräsident / die Bundesratspräsidentin",
+                "Der Bundestagspräsident / die Bundestagspräsidentin "
+            ],
+            "correct": 2
+        },
+        {
+            "id": 88,
+            "question": "Die parlamentarische Opposition im Deutschen Bundestag …",
+            "choices": [
+                "kontrolliert die Regierung.",
+                "entscheidet, wer Bundesminister/Bundesministerin wird.",
+                "bestimmt, wer im Bundesrat sitzt.",
+                "schlägt die Regierungschefs/Regierungschefinnen der Länder vor. "
+            ],
+            "correct": 1
+        },
+        {
+            "id": 89,
+            "question": "Wie nennt man in Deutschland die Vereinigung von Abgeordneten einer Partei im Parlament? ",
+            "choices": [
+                "Verband",
+                "Ältestenrat",
+                "Fraktion",
+                "Opposition"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 90,
+            "question": "Die deutschen Bundesländer wirken an der Gesetzgebung des Bundes mit durch … ",
+            "choices": [
+                "den Bundesrat.",
+                "die Bundesversammlung.",
+                "den Bundestag.",
+                "die Bundesregierung."
+            ],
+            "correct": 1
+        },
+        {
+            "id": 91,
+            "question": "In Deutschland kann ein Regierungswechsel in einem Bundesland Auswirkungen auf die Bundespolitik haben. Das Regieren wird …",
+            "choices": [
+                "schwieriger, wenn sich dadurch die Mehrheit im Bundestag ändert.",
+                "leichter, wenn dadurch neue Parteien in den Bundesrat kommen.",
+                "schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird.",
+                "leichter, wenn es sich um ein reiches Bundesland handelt. "
+            ],
+            "correct": 3
+        },
+        {
+            "id": 92,
+            "question": "Was bedeutet die Abkürzung CSU in Deutschland?",
+            "choices": [
+                "Christlich Sichere Union",
+                "Christlich Süddeutsche Union",
+                "Christlich Sozialer Unternehmerverband",
+                "Christlich-Soziale Union "
+            ],
+            "correct": 4
+        },
+        {
+            "id": 93,
+            "question": "Je mehr „Zweitstimmen“ eine Partei bei einer Bundestagswahl bekommt, desto … ",
+            "choices": [
+                "weniger Erststimmen kann sie haben.",
+                "mehr Direktkandidaten der Partei ziehen ins Parlament ein.",
+                "größer ist das Risiko, eine Koalition bilden zu müssen.",
+                "mehr Sitze erhält die Partei im Parlament."
+            ],
+            "correct": 4
+        },
+        {
+            "id": 94,
+            "question": "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
+            "choices": [
+                "16",
+                "18",
+                "21",
+                "23"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 95,
+            "question": "Was gilt für die meisten Kinder in Deutschland?",
+            "choices": [
+                "Wahlpflicht",
+                "Schulpflicht",
+                "Schweigepflicht",
+                "Religionspflicht "
+            ],
+            "correct": 2
         }
     ],
     "Baden-Wüttenberg": [
