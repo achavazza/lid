@@ -39,13 +39,7 @@
                                 </div>
                                 <img v-if="question.image" :src="question.image" alt="Question Image" class="question-image" />
                                 <!--<p>Correct Answer: {{ question.choices[question.correct] }}</p>-->
-                                <ul v-if="question.id == 301 || question.id == 303 || question.id == 304 || question.id == 308" class="is-flex">
-                                    <li v-for="(choice, idx) in question.choices" :key="idx" class="mb-1 mx-2" :class="idx+1 == question.correct ? 'approved' : 'normal' ">
-                                        {{ choice }} 
-                                        <!--<span class="correct" v-if="idx+1 == question.correct">Richtig</span>-->
-                                    </li>
-                                </ul>
-                                <ul v-else>
+                                <ul>
                                     <li v-for="(choice, idx) in question.choices" :key="idx" class="mb-1" :class="idx+1 == question.correct ? 'approved' : 'normal' ">
                                         {{ choice }} 
                                         <!--<span class="correct" v-if="idx+1 == question.correct">Richtig</span>-->

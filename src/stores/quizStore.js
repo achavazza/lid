@@ -8,10 +8,10 @@ export const useQuizStore = defineStore("quiz", {
         currentQuestionIndex: null, // Index of the current question
         selectedAnswers: {}, // User-selected answers
         results: null, // Results after the quiz ends
-        pickedQuestions: 5, // Default number of picked general questions
-        pickedStateQuestions: 2, // Default number of picked state questions
-        approvalScore: 3, // Minimum score to pass
-        residentApprovalScore: 5, // Minimum score for resident approval
+        pickedQuestions: 30, // Default number of picked general questions
+        pickedStateQuestions: 3, // Default number of picked state questions
+        approvalScore: 15, // Minimum score to pass
+        residentApprovalScore: 17, // Minimum score for resident approval
         selectedState: "Bavaria", // State selected by the user
     }),
     getters: {
