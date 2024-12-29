@@ -2850,31 +2850,29 @@
                 "einer Hauptschule.",
                 "einer Privatuniversität."
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 258,
             "question": "Was darf das Jugendamt in Deutschland?",
             "choices": [
                 "Es entscheidet, welche Schule das Kind besucht.",
-                "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie",
-                "nehmen.",
+                "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen.",
                 "Es bezahlt das Kindergeld an die Eltern.",
                 "Es kontrolliert, ob das Kind einen Kindergarten besucht."
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 259,
-            "question": "Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft",
+            "question": "Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft bei der …",
             "choices": [
-                "bei der …",
                 "Rentenberechnung.",
                 "Lehrstellensuche.",
                 "Steuererklärung.",
                 "Krankenversicherung."
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 260,
@@ -2885,43 +2883,40 @@
                 "Anspruch auf Schulgeld.",
                 "Anwesenheitspflicht."
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 261,
-            "question": "Ein Mann möchte mit 30 Jahren in Deutschland sein Abitur nachholen. Wo kann er das tun?",
+            "question": "Ein Mann möchte mit 30 Jahren in Deutschland sein Abitur nachholen. Wo kann er das tun? An …",
             "choices": [
-                "An …",
                 "einer Hochschule.",
                 "einem Abendgymnasium.",
                 "einer Hauptschule.",
                 "einer Privatuniversität."
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 262,
             "question": "Was bedeutet in Deutschland der Grundsatz der Gleichbehandlung?",
             "choices": [
                 "Niemand darf z.B. wegen einer Behinderung benachteiligt werden.",
-                "Man darf andere Personen benachteiligen, wenn ausreichende persönliche",
-                "Gründe hierfür vorliegen.",
+                "Man darf andere Personen benachteiligen, wenn ausreichende persönliche Gründe hierfür vorliegen.",
                 "Niemand darf gegen Personen klagen, wenn sie benachteiligt wurden.",
                 "Es ist für alle Gesetz, benachteiligten Gruppen jährlich Geld zu spenden."
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 263,
-            "question": "In Deutschland sind Jugendliche ab 14 Jahren strafmündig. Das bedeutet: Jugendliche, die",
+            "question": "In Deutschland sind Jugendliche ab 14 Jahren strafmündig. Das bedeutet: Jugendliche, die 14 Jahre und älter sind und gegen Strafgesetze verstoßen, …",
             "choices": [
-                "14 Jahre und älter sind und gegen Strafgesetze verstoßen, …",
                 "werden bestraft.",
                 "werden wie Erwachsene behandelt.",
                 "teilen die Strafe mit ihren Eltern.",
                 "werden nicht bestraft."
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 264,
@@ -2932,7 +2927,7 @@
                 "beim Oktoberfest",
                 "an Pfingsten"
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 265,
@@ -2943,7 +2938,7 @@
                 "zur Agentur für Arbeit",
                 "zum Standesamt"
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 266,
@@ -2954,47 +2949,40 @@
                 "um 0 Uhr, Mitternacht",
                 "um 22 Uhr"
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 267,
-            "question": "Eine junge Frau in Deutschland, 22 Jahre alt, lebt mit ihrem Freund zusammen. Die Eltern",
+            "question": "Eine junge Frau in Deutschland, 22 Jahre alt, lebt mit ihrem Freund zusammen. Die Eltern der Frau finden das nicht gut, weil ihnen der Freund nicht gefällt. Was können die Eltern tun?",
             "choices": [
-                "der Frau finden das nicht gut, weil ihnen der Freund nicht gefällt. Was können die Eltern",
-                "tun?",
                 "Sie müssen die Entscheidung der volljährigen Tochter respektieren.",
                 "Sie haben das Recht, die Tochter in die elterliche Wohnung zurückzuholen.",
                 "Sie können zur Polizei gehen und die Tochter anzeigen.",
                 "Sie suchen einen anderen Mann für die Tochter."
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 268,
-            "question": "Eine junge Frau will den Führerschein machen. Sie hat Angst vor der Prüfung, weil ihre",
+            "question": "Eine junge Frau will den Führerschein machen. Sie hat Angst vor der Prüfung, weil ihre Muttersprache _nicht_ Deutsch ist. Was ist richtig?",
             "choices": [
-                "Muttersprache nicht Deutsch ist. Was ist richtig?",
-                "Sie muss mindestens zehn Jahre in Deutschland leben, bevor sie den",
-                "Führerschein machen kann.",
+                "Sie muss mindestens zehn Jahre in Deutschland leben, bevor sie den Führerschein machen kann.",
                 "Wenn sie kein Deutsch kann, darf sie keinen Führerschein haben.",
-                "Sie muss den Führerschein in dem Land machen, in dem man ihre Sprache",
-                "spricht.",
-                "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es",
-                "gibt mehr als zehn Sprachen zur Auswahl."
+                "Sie muss den Führerschein in dem Land machen, in dem man ihre Sprache spricht.",
+                "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl."
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 269,
-            "question": "In Deutschland haben Kinder ab dem Alter von drei Jahren bis zur Ersteinschulung einen",
+            "question": "In Deutschland haben Kinder ab dem Alter von drei Jahren bis zur Ersteinschulung einen Anspruch auf …",
             "choices": [
-                "Anspruch auf …",
                 "monatliches Taschengeld.",
                 "einen Platz in einem Sportverein.",
                 "einen Kindergartenplatz.",
                 "einen Ferienpass."
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 270,
@@ -3005,7 +2993,7 @@
                 "zur Weiterbildung.",
                 "nur für Rentnerinnen und Rentner."
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 271,
@@ -3016,18 +3004,18 @@
                 "sich mit Masken und Kostümen verkleiden",
                 "Kürbisse vor die Tür stellen"
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 272,
-            "question": "Welche Lebensform ist in Deutschland nicht erlaubt?",
+            "question": "Welche Lebensform ist in Deutschland _nicht_ erlaubt?",
             "choices": [
                 "Mann und Frau sind geschieden und leben mit neuen Partnern zusammen.",
                 "Zwei Frauen leben zusammen.",
                 "Ein alleinerziehender Vater lebt mit seinen zwei Kindern zusammen.",
                 "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet."
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 273,
@@ -3038,19 +3026,18 @@
                 "zum Einwohnermeldeamt.",
                 "zum Jugendamt."
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 274,
-            "question": "Sie haben in Deutschland absichtlich einen Brief geöffnet, der an eine andere Person",
+            "question": "Sie haben in Deutschland absichtlich einen Brief geöffnet, der an eine andere Person adressiert ist. Was haben Sie nicht beachtet?",
             "choices": [
-                "adressiert ist. Was haben Sie nicht beachtet?",
                 "das Schweigerecht",
                 "das Briefgeheimnis",
                 "die Schweigepflicht",
                 "die Meinungsfreiheit"
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 275,
@@ -3061,92 +3048,84 @@
                 "die Einwilligung der Kinder",
                 "die Unterstützung einer Anwältin/eines Anwalts"
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 276,
-            "question": "Was sollten Sie tun, wenn Sie von Ihrer Ansprechpartnerin/Ihrem Ansprechpartner in einer",
+            "question": "Was sollten Sie tun, wenn Sie von Ihrer Ansprechpartnerin/Ihrem Ansprechpartner in einer deutschen Behörde schlecht behandelt werden?",
             "choices": [
-                "deutschen Behörde schlecht behandelt werden?",
                 "Ich kann nichts tun.",
                 "Ich muss mir diese Behandlung gefallen lassen.",
                 "Ich drohe der Person.",
                 "Ich kann mich bei der Behördenleiterin/beim Behördenleiter beschweren."
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 277,
-            "question": "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist",
+            "question": "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …",
             "choices": [
-                "ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …",
                 "kein Englisch spricht.",
                 "zu hohe Gehaltsvorstellungen hat.",
                 "keine Erfahrungen in diesem Beruf hat.",
                 "Mutter ist."
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 278,
-            "question": "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel",
+            "question": "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …",
             "choices": [
-                "für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …",
                 "im Rollstuhl sitzt.",
                 "keine Erfahrung hat.",
                 "zu hohe Gehaltsvorstellungen hat.",
                 "kein Englisch spricht."
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 279,
-            "question": "In den meisten Mietshäusern in Deutschland gibt es eine \"Hausordnung\". Was steht in einer",
+            "question": "In den meisten Mietshäusern in Deutschland gibt es eine \"Hausordnung\". Was steht in einer solchen \"Hausordnung\"? Sie nennt …",
             "choices": [
-                "solchen \"Hausordnung\"? Sie nennt …",
                 "Regeln für die Benutzung öffentlicher Verkehrsmittel.",
                 "alle Mieterinnen und Mieter im Haus.",
                 "Regeln, an die sich alle Bewohnerinnen und Bewohner halten müssen.",
                 "die Adresse des nächsten Ordnungsamtes."
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 280,
-            "question": "Wenn Sie sich in Deutschland gegen einen falschen Steuerbescheid wehren wollen, müssen",
+            "question": "Wenn Sie sich in Deutschland gegen einen falschen Steuerbescheid wehren wollen, müssen Sie …",
             "choices": [
-                "Sie …",
                 "nichts machen.",
                 "den Bescheid wegwerfen.",
                 "Einspruch einlegen.",
                 "warten, bis ein anderer Bescheid kommt."
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 281,
-            "question": "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine",
+            "question": "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …",
             "choices": [
-                "dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser",
-                "Situation verletzt? Das Recht auf …",
                 "Meinungsfreiheit",
                 "Gleichbehandlung",
                 "Versammlungsfreiheit",
                 "Freizügigkeit"
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 282,
-            "question": "Welches Ehrenamt müssen deutsche Staatsbürgerinnen und Staatsbürger übernehmen,",
+            "question": "Welches Ehrenamt müssen deutsche Staatsbürgerinnen und Staatsbürger übernehmen, wenn sie dazu aufgefordert werden?",
             "choices": [
-                "wenn sie dazu aufgefordert werden?",
                 "Vereinstrainerin/Vereinstrainer",
                 "Wahlhelferin/Wahlhelfer",
                 "Bibliotheksaufsicht",
                 "Lehrerin/Lehrer"
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 283,
@@ -3157,56 +3136,51 @@
                 "Ich schicke die Rechnung an die Behörde zurück.",
                 "Ich gehe mit der Rechnung zum Finanzamt."
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 284,
-            "question": "Was man für die Arbeit können muss, ändert sich in Zukunft sehr schnell. Was kann man",
+            "question": "Was man für die Arbeit können muss, ändert sich in Zukunft sehr schnell. Was kann man tun?",
             "choices": [
-                "tun?",
                 "Es ist egal, was man lernt.",
                 "Erwachsene müssen auch nach der Ausbildung immer weiter lernen.",
-                "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule",
-                "muss man nicht weiter lernen.",
+                "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
                 "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert."
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 285,
-            "question": "Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von",
+            "question": "Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?",
             "choices": [
-                "ihrem Gehalt bezahlen?",
                 "Lohnsteuer",
                 "Beiträge zur Arbeitslosenversicherung",
                 "Beiträge zur Renten- und Krankenversicherung",
                 "Umsatzsteuer"
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 286,
-            "question": "Welche Organisation in einer Firma hilft den Arbeitnehmerinnen und Arbeitnehmern bei",
+            "question": "Welche Organisation in einer Firma hilft den Arbeitnehmerinnen und Arbeitnehmern bei Problemen mit der Arbeitgeberin/dem Arbeitgeber?",
             "choices": [
-                "Problemen mit der Arbeitgeberin/dem Arbeitgeber?",
                 "der Betriebsrat",
                 "die Betriebsprüferin/der Betriebsprüfer",
                 "die Betriebsgruppe",
                 "das Betriebsmanagement"
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 287,
-            "question": "Sie möchten bei einer Firma in Deutschland ihr Arbeitsverhältnis beenden. Was müssen Sie",
+            "question": "Sie möchten bei einer Firma in Deutschland ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?",
             "choices": [
-                "beachten?",
                 "die Gehaltszahlungen",
                 "die Arbeitszeit",
                 "die Kündigungsfrist",
                 "die Versicherungspflicht"
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 288,
@@ -3217,57 +3191,51 @@
                 "aus dem Grundgesetz der Bundesrepublik Deutschland",
                 "aus der christlichen Tradition"
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 289,
-            "question": "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant",
+            "question": "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …",
             "choices": [
-                "in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb",
-                "nicht, weil …",
                 "seine Deutschkenntnisse zu gering sind.",
                 "er zu hohe Gehaltsvorstellungen hat.",
                 "er eine dunkle Haut hat.",
                 "er keine Erfahrungen im Beruf hat."
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 290,
-            "question": "Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus,",
+            "question": "Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?",
             "choices": [
-                "doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?",
                 "eine Anzeige schreiben",
                 "den Fernseher reklamieren",
                 "das Gerät ungefragt austauschen",
                 "die Garantie verlängern"
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 291,
-            "question": "Warum muss man in Deutschland bei der Steuererklärung aufschreiben, ob man zu einer",
+            "question": "Warum muss man in Deutschland bei der Steuererklärung aufschreiben, ob man zu einer Kirche gehört oder nicht? Weil …",
             "choices": [
-                "Kirche gehört oder nicht? Weil …",
-                "es eine Kirchensteuer gibt, die an die Einkommen- und Lohnsteuer geknüpft",
-                "ist.",
+                "es eine Kirchensteuer gibt, die an die Einkommen- und Lohnsteuer geknüpft ist.",
                 "das für die Statistik in Deutschland wichtig ist.",
                 "man mehr Steuern zahlen muss, wenn man nicht zu einer Kirche gehört.",
                 "die Kirche für die Steuererklärung verantwortlich ist."
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 292,
-            "question": "Die Menschen in Deutschland leben nach dem Grundsatz der religiösen Toleranz. Was",
+            "question": "Die Menschen in Deutschland leben nach dem Grundsatz der religiösen Toleranz. Was bedeutet das?",
             "choices": [
-                "bedeutet das?",
                 "Es dürfen keine Moscheen gebaut werden.",
                 "Alle Menschen glauben an Gott.",
                 "Jeder kann glauben, was er möchte.",
                 "Der Staat entscheidet, an welchen Gott die Menschen glauben."
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 293,
@@ -3278,7 +3246,7 @@
                 "Eier bemalen",
                 "Raketen in die Luft schießen"
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 294,
@@ -3289,7 +3257,7 @@
                 "internationaler Trauertag.",
                 "bayerischer Brauch."
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 295,
@@ -3300,7 +3268,7 @@
                 "der Buddhismus",
                 "der Islam"
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 296,
@@ -3311,19 +3279,18 @@
                 "die Adventszeit.",
                 "Allerheiligen."
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 297,
-            "question": "Aus welchem Land sind die meisten Migrantinnen und Migranten nach Deutschland",
+            "question": "Aus welchem Land sind die meisten Migrantinnen und Migranten nach Deutschland gekommen?",
             "choices": [
-                "gekommen?",
                 "Italien",
                 "Polen",
                 "Marokko",
                 "Türkei"
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 298,
@@ -3334,33 +3301,29 @@
                 "Chile, Ungarn, Simbabwe.",
                 "Nordkorea, Mexiko, Ägypten."
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 299,
-            "question": "Ausländische Arbeitnehmerinnen und Arbeitnehmer, die in den 50er und 60er Jahren von der",
+            "question": "Ausländische Arbeitnehmerinnen und Arbeitnehmer, die in den 50er und 60er Jahren von der Bundesrepublik Deutschland angeworben wurden, nannte man …",
             "choices": [
-                "Bundesrepublik Deutschland angeworben wurden, nannte man …",
                 "Schwarzarbeiterinnen/Schwarzarbeiter.",
                 "Gastarbeiterinnen/Gastarbeiter.",
                 "Zeitarbeiterinnen/Zeitarbeiter.",
                 "Schichtarbeiterinnen/Schichtarbeiter."
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 300,
-            "question": "Aus welchem Land kamen die ersten Gastarbeiterinnen und Gastarbeiter in die",
+            "question": "Aus welchem Land kamen die ersten Gastarbeiterinnen und Gastarbeiter in die Bundesrepublik Deutschland?",
             "choices": [
-                "Bundesrepublik Deutschland?",
                 "Italien",
                 "Spanien",
                 "Portugal",
-                "Türkei",
-                "Teil II",
-                "Fragen für das Bundesland Baden-Württemberg"
+                "Türkei"
             ],
-            "correct": null
+            "correct": 1
         }
     ],
     "Baden-Wüttenberg": [
@@ -3445,7 +3408,7 @@
         {
             "id": 308,
             "question": "Welches Bundesland ist Baden-Wüttenberg?",
-            "image": "/src/assets/img/f.png",
+            "image": "/src/assets/img/bw-map.png",
             "choices": [
                 "1",
                 "2",
@@ -3559,7 +3522,7 @@
         {
             "id": 308,
             "question": "Welches Bundesland ist Bayern?",
-            "image": "/src/assets/img/f.png",
+            "image": "/src/assets/img/bayern-map.png",
             "choices": [
                 "1",
                 "2",
@@ -3830,7 +3793,7 @@
                 "3",
                 "4"
             ],
-            "correct": 1
+            "correct": 3
         },
         {
             "id": 302,
@@ -4856,7 +4819,7 @@
                 "3",
                 "4"
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 302,
@@ -4934,7 +4897,7 @@
                 "3",
                 "4"
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 309,
@@ -4970,7 +4933,7 @@
                 "3",
                 "4"
             ],
-            "correct": null
+            "correct": 3
         },
         {
             "id": 302,
@@ -5048,7 +5011,7 @@
                 "3",
                 "4"
             ],
-            "correct": null
+            "correct": 1
         },
         {
             "id": 309,
@@ -5084,7 +5047,7 @@
                 "3",
                 "4"
             ],
-            "correct": null
+            "correct": 4
         },
         {
             "id": 302,
@@ -5162,7 +5125,7 @@
                 "3",
                 "4"
             ],
-            "correct": null
+            "correct": 2
         },
         {
             "id": 309,

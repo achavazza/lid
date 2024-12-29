@@ -8,7 +8,8 @@
                     <li v-for="(question, index) in allQuestions" :key="index" class="mb-5">
                         <div class="level mb-0">
                             <div class="level-item level-left">
-                                <h4 class="is-size-5 has-text-weight-semibold breakline">{{ question.question }}</h4>
+                                <h4 class="is-size-5 has-text-weight-semibold breakline" v-html="processQuestionText(question.question)"></h4>
+                                <!--<h4 class="is-size-5 has-text-weight-semibold breakline">{{ question.question }}</h4>-->
                             </div>
                             <div class="level-item level-right">
                                 <h4 class="is-size-5 has-text-grey-lighter has-text-weight-semibold">{{ question.id }}</h4>
@@ -31,7 +32,8 @@
                             <li v-for="(question, index) in questions" :key="index" class="mb-5">
                                 <div class="level mb-0">
                                     <div class="level-item level-left" style="max-width:60%">
-                                        <h4 class="is-size-5 has-text-weight-semibold breakline">{{ question.question }}</h4>
+                                        <h4 class="is-size-5 has-text-weight-semibold breakline" v-html="processQuestionText(question.question)"></h4>
+                                        <!--<h4 class="is-size-5 has-text-weight-semibold breakline">{{ question.question }}</h4>-->
                                     </div>
                                     <div class="level-item level-right">
                                         <h4 class="is-size-5 has-text-grey-lighter has-text-weight-semibold">{{ stateName + ' ' + question.id }}</h4>
@@ -60,6 +62,11 @@ import { useQuizStore } from '@/stores/quizStore';
 const quizStore = useQuizStore();
 const allQuestions = ref([]);
 const stateQuestions = ref({});
+
+const processQuestionText = (text) => {
+      if (!text) return "";
+      return text.replace(/_(.+?)_/g, "<u>$1</u>");
+    };
 
 onMounted(async () => {
     await quizStore.loadAllQuestions();

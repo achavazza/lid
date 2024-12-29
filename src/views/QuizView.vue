@@ -19,7 +19,10 @@
         <div v-if="currentQuestion">
           <div class="question-number"><strong>{{ currentQuestion.id }}</strong></div>
           <div>
-            <h2 class="is-size-2 has-text-left mb-5">{{ currentQuestion.question }}</h2>
+            <h2 class="is-size-2 has-text-left mb-5" v-html="processQuestionText(currentQuestion.question)"></h2>
+            <!-- 
+              <h2 class="is-size-2 has-text-left mb-5">{{ currentQuestion.question }}</h2>
+              -->
             <img
               v-if="currentQuestion.image"
               :src="currentQuestion.image"
@@ -50,7 +53,6 @@
           </div>
           <div class="level-item level-left has-text-left">
             <p class="is-size-4">
-
               <span class="heading">Bestandene (nötig {{ quizStore.approvalScore }})</span><br />
               <span class="title" :class="{ approved: quizStore.isApproved, notApproved: !quizStore.isApproved }">
                 {{ quizStore.isApproved ? "Sie haben bestanden!" : "Sie haben nicht bestanden" }}
@@ -68,7 +70,8 @@
           </nav>
           <ul class="has-text-left">
               <li v-for="result in quizStore.results" :key="result.question.id" class="mb-3">
-                  <h3 class="has-text-weight-bold">{{ result.question.question }}</h3>
+                  <h3 class="has-text-weight-bold"  v-html="processQuestionText(result.question.question)"></h3>
+                  <!-- <h3 class="has-text-weight-bold">{{ result.question.question }}</h3> -->
                   <p>Richtig Antwort: {{ result.question.choices[result.question.correct] }}</p>
                   <p>
                     Deine Antwort: {{ result.question.choices[result.userAnswer]}} <span :class="{ correct: result.isCorrect, incorrect: !result.isCorrect }">
@@ -108,6 +111,11 @@ import { useQuizStore } from "@/stores/quizStore";
     const remainingQuestions = computed(() => quizStore.remainingQuestions);
     const correctAnswersCount = computed(() => quizStore.correctAnswersCount);
     const isApproved = computed(() => quizStore.isApproved);
+
+    const processQuestionText = (text) => {
+      if (!text) return "";
+      return text.replace(/_(.+?)_/g, "<u>$1</u>");
+    };
 
     const selectState = async (state) => {
       quizStore.setState(state);
