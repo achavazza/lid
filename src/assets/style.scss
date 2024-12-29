@@ -25,3 +25,10 @@
     white-space: normal !important;
 }
 .level-item{max-width:90%}
+
+.navbar-burger{
+    color:var(--bulma-navbar-item-color);
+}
+.navbar-burger:hover {
+    background-color:hsla(152, 30%, 12%, 0.1);
+}
