@@ -1,10 +1,10 @@
-<template>
+,<template>
   <div class="hero-body">
     <div class="container has-text-centered">
       <div v-if="!quizStarted" class="box">
         
         <h2 class="is-size-2 mb-5">Erstellen Sie ein individuelles Quiz</h2>
-        <textarea v-model="customQuestionIds" class="textarea" placeholder="Fügen Sie die Fragen-IDs durch Kommas getrennt ein ..."></textarea>
+        <textarea v-model="customQuestionIds" class="textarea" placeholder="Fügen Sie die Fragen-IDs durch Kommas getrennt ein z.B.: 49,136,190..."></textarea>
         <button @click="loadCustomQuiz" class="button is-medium mt-5">Starten Sie das Quiz</button>
       </div>
 

@@ -1,0 +1,34 @@
+@use "bulma/sass";
+.question-number{
+    position:absolute;
+    padding:10px 20px;
+    top:0;
+    right:0;
+}
+.box{padding:3em}
+.button{white-space: normal;text-align: inherit;}
+.approved,
+.correct {
+    color: sass.$success;
+}
+
+.notApproved,
+.incorrect {
+    color: sass.$danger;
+}
+
+.normal {
+    color: sass.$grey-lighter;
+}
+
+.breakline{
+    white-space: normal !important;
+}
+.level-item{max-width:90%}
+
+.navbar-burger{
+    color:var(--bulma-navbar-item-color);
+}
+.navbar-burger:hover {
+    background-color:hsla(152, 30%, 12%, 0.1);
+}

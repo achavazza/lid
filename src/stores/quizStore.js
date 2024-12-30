@@ -42,7 +42,7 @@ export const useQuizStore = defineStore("quiz", {
                     "State2": [// preguntas específicas de State2 ]
                 } 
                 */
-                const response = await fetch("/src/questions.json");
+                const response = await fetch("/questions.json");
                 const data = await response.json();
 
                 //asigno a una variable
@@ -112,7 +112,7 @@ export const useQuizStore = defineStore("quiz", {
         async loadCustomQuestions(ids) {
             try {
                 //cargo el json
-                const response = await fetch("/src/questions.json");
+                const response = await fetch("/questions.json");
                 const data = await response.json();
 
                 this.generalQuestions = data.generalQuestions;
@@ -145,7 +145,7 @@ export const useQuizStore = defineStore("quiz", {
         // Function to load all questions (general and state-specific)
         async loadAllQuestions(){
             try {
-                const response = await fetch("/src/questions.json");
+                const response = await fetch("/questions.json");
                 const data = await response.json();
                 
                 //asigno a una variable
